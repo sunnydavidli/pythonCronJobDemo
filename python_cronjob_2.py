@@ -12,3 +12,7 @@ while True:
     
     
 print("test)
+
+def test():
+    print("have a fun!")
+ 
