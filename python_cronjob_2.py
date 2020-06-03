@@ -9,7 +9,7 @@ schedule.every(1).minutes.do(job)
 
 while True:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(10)
     
     
 print("test)
