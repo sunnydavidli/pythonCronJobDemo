@@ -3,6 +3,7 @@ import time
 
 def job():
     print("I'm working...")
+    print("Sleepy!")
 
 schedule.every(1).minutes.do(job)
 
